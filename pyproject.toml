@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "auto-dinosaur-game"
+version = "0.1.0"
+description = ""
+authors = ["Rafael Rodero <rrodero@live.com>"]
+readme = "README.md"
+packages =[{include = "auto_dinosaur_game"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pillow = "11.0.0"
+pyautogui = "0.9.54"
+selenium = "4.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
